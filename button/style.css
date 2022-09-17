@@ -1,0 +1,36 @@
+.wrap {
+  margin: 0 auto;
+  padding: 0;
+  padding: 0 0 0 20px;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  width: 350px;
+  height: 140px;
+}
+
+.login_btn {
+  width: 318px;
+  height: 40px;
+  background-color: #711BFF;
+  color: white;
+  border-radius: 3px;
+}
+
+.mention {
+  font-size: 12px;
+}
+
+.line {
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.info {
+  float:left;
+}
+
+.join {
+  float: right;
+}
+
