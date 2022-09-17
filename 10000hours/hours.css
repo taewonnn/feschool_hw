@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background-color: #5B2386;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'GmarketSansMedium';
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-word {
+  width: 30vw;
+  position: absolute;
+}
+
+.prac {
+  margin: 3rem;
+}
+
+.quotation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.quotation > img {
+  position: absolute;
+}
+
+.quotation > p {
+  line-height: 1.3rem;
+}
+
+.quotation strong {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.train-form {
+  margin: 4rem;
+}
+
+.train-form > input {
+  font-family: 'GmarketSansMedium';
+  height: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: none;
+  margin: 0.5rem;
+}
+
+.train-form > div {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.train-img {
+  align-self: flex-end;
+  width: 10%;
+}
+
+.train-btn {
+  font-family: 'GmarketSansBold';
+  align-self: flex-start;
+  margin: 0.3rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  font-weight: bold;
+  color: #5B2386;
+  background-color: #FCEE21;
+}
+
+.goal {
+  margin: 4rem;
+}
+
+.goal p  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.goal strong {
+  font-family: 'GmarketSansBold';
+  font-size: 3rem;
+  margin: 0 0.5rem;
+}
+
+.btn-group { 
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.train-btn-white {
+  font-family: 'GmarketSansBold';
+  align-self: flex-start;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  font-weight: bold;
+  color: #5B2386;
+  background-color: white;
+  margin: 0.3rem;
+}
+
+footer {
+  font-size: 50%;
+  line-height: 1rem;
+  margin: 2rem;
+}
+
+footer > img {
+  padding: 1rem;
+}
+
+article {
+
+}
+
+
+
+
