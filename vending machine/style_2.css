@@ -1,0 +1,127 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: #EAE8FE;
+}
+
+h1{
+  display: block;
+  text-align: center;
+}
+
+h1 img{
+  width: 386px;
+  height: 164px;  
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.cont-left {
+  background-color: #FFFFFF;
+  width: 360px;
+  height: 545px;
+  margin-right: 28px;
+}
+
+.cola-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 323px;
+  justify-content: space-between;
+  align-items: space-around;
+  margin: 31px 27px 20px 27px;
+}
+
+.cola-list > li {
+  width: 94px;
+  /* flex-basis: 94px */
+  height: 130px;
+  border: 3px solid #6327FE;
+  border-radius: 10px;
+}
+
+.calculation {
+  width: 306px;
+  height: 194px;
+  border: 1px solid black;
+  margin: 20px 27px 24px 27px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cal-bal {
+  width: 200px;
+  height: 33px;
+  background-color: #EAE8FE;
+}
+
+.cal-inp {
+  width: 200px;
+  height: 33px;
+}
+
+.bal-right {
+  width: 94px;
+  height: 33px;
+}
+
+.bal-list {
+  width: 200px;
+  height: 106px;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+}
+
+.aqu-btn {
+  width: 94px;
+  height: 106px;
+  background-color: #6327FE;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cont-right {
+  background-color: red;
+  width: 360px;
+  height: 545px;
+}
+
+.money {
+  width: 360px;
+  height: 50px;
+  background-color: #FFFFFF;
+}
+
+.money-in {
+  width: 306px;
+  height: 32px;
+  background-color: #EAE8FE;
+  margin: 9px 27px;
+}
+
+.aquisition {
+  width: 306px;
+  height: 441px;
+  background-color: #FFFFFF;
+  margin: 58px 27px 52px 27px;
+}
+
+.
+

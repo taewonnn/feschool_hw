@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vending machine</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style_2.css">
+</head>
+<body>
+  <main>
+    <h1 class="logo">
+      <img src="./img/logo.png" alt="">
+    </h1>
+    <div class="wrap">
+      <section class="cont-left">
+        <h2 class="hidden"></h2>
+        <ul class="cola-list">
+          <li class="list-original">
+            <img src="./img/cola_original.png" alt="">
+            Original_Cola
+            <button>1000원</button>
+          </li>
+          <li class="list-violet"></li>
+          <li class="list-yellow"></li>
+          <li class="list-cool"></li>
+          <li class="list-green"></li>
+          <li class="list-orange"></li>
+        </ul>
+        <form class="calculation">
+            <p class="cal-bal">잔액 : 1,000원</p>
+            <button class="bal-right">거스름돈 반환</button>
+          <input class="cal-inp" placeholder="입금액 입력"></input>
+          <button class="bal-right">입금</button>
+          <div class="bal-list">
+            <ul>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <button class="aqu-btn">획득</button>
+        </form>
+
+      </section>
+      <section class="cont-right">
+        <h2 class="hidden">계산</h2>
+        <div class="money">
+          <div class="money-in"></div>
+        </div>
+        <div class="aquisition">
+          <p></p>
+          <div class="aq-box">
+            <ul class="aq-list">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
